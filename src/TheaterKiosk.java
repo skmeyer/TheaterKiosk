@@ -10,6 +10,11 @@ public class TheaterKiosk
 
         System.out.print("Enter your age: ");
         userAge = in.nextInt();
+        if(userAge >= WRIST_BAND_AGE)
+        {
+            System.out.println("You get a paper wrist band!");
+        }
 
+        
     }
 }
